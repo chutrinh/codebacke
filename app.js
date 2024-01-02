@@ -6,7 +6,7 @@ app.use(cors());
 
 const homeRounter = require("./router/home-router");
 app.use("/home", homeRounter);
-
+// test
 mongoose
   .connect(
     "mongodb+srv://trinhtvfx22649:DxxTUGzQ9ivnJ3Kr@cluster0.ssvrvkk.mongodb.net/codenhombe"
